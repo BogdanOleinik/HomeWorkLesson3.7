@@ -11,7 +11,7 @@ import SwiftUI
 struct HomeWorkLesson3_7App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            CustonGridView<<#Content: View#>, Any>(items: <#[_]#>, colums: <#Int#>, content: <#(CGFloat, _) -> _#>)
         }
     }
 }

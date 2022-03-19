@@ -8,17 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		9C28E68327E5DD0F00DE626A /* HomeWorkLesson3_7App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C28E68227E5DD0F00DE626A /* HomeWorkLesson3_7App.swift */; };
-		9C28E68527E5DD0F00DE626A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C28E68427E5DD0F00DE626A /* ContentView.swift */; };
 		9C28E68727E5DD1200DE626A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C28E68627E5DD1200DE626A /* Assets.xcassets */; };
 		9C28E68A27E5DD1200DE626A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C28E68927E5DD1200DE626A /* Preview Assets.xcassets */; };
+		9C28E69727E5DD3000DE626A /* CurvesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C28E69027E5DD3000DE626A /* CurvesView.swift */; };
+		9C28E69827E5DD3000DE626A /* Award.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C28E69127E5DD3000DE626A /* Award.swift */; };
+		9C28E69927E5DD3000DE626A /* CustonGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C28E69227E5DD3000DE626A /* CustonGridView.swift */; };
+		9C28E69A27E5DD3000DE626A /* PathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C28E69327E5DD3000DE626A /* PathView.swift */; };
+		9C28E69B27E5DD3000DE626A /* AwardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C28E69427E5DD3000DE626A /* AwardsView.swift */; };
+		9C28E69C27E5DD3000DE626A /* GradientRectangles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C28E69527E5DD3000DE626A /* GradientRectangles.swift */; };
+		9C28E69D27E5DD3000DE626A /* VerticalGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C28E69627E5DD3000DE626A /* VerticalGridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9C28E67F27E5DD0F00DE626A /* HomeWorkLesson3.7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeWorkLesson3.7.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C28E68227E5DD0F00DE626A /* HomeWorkLesson3_7App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWorkLesson3_7App.swift; sourceTree = "<group>"; };
-		9C28E68427E5DD0F00DE626A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9C28E68627E5DD1200DE626A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C28E68927E5DD1200DE626A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9C28E69027E5DD3000DE626A /* CurvesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurvesView.swift; sourceTree = "<group>"; };
+		9C28E69127E5DD3000DE626A /* Award.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Award.swift; sourceTree = "<group>"; };
+		9C28E69227E5DD3000DE626A /* CustonGridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustonGridView.swift; sourceTree = "<group>"; };
+		9C28E69327E5DD3000DE626A /* PathView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathView.swift; sourceTree = "<group>"; };
+		9C28E69427E5DD3000DE626A /* AwardsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AwardsView.swift; sourceTree = "<group>"; };
+		9C28E69527E5DD3000DE626A /* GradientRectangles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientRectangles.swift; sourceTree = "<group>"; };
+		9C28E69627E5DD3000DE626A /* VerticalGridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerticalGridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +64,13 @@
 			isa = PBXGroup;
 			children = (
 				9C28E68227E5DD0F00DE626A /* HomeWorkLesson3_7App.swift */,
-				9C28E68427E5DD0F00DE626A /* ContentView.swift */,
+				9C28E69127E5DD3000DE626A /* Award.swift */,
+				9C28E69427E5DD3000DE626A /* AwardsView.swift */,
+				9C28E69027E5DD3000DE626A /* CurvesView.swift */,
+				9C28E69227E5DD3000DE626A /* CustonGridView.swift */,
+				9C28E69527E5DD3000DE626A /* GradientRectangles.swift */,
+				9C28E69327E5DD3000DE626A /* PathView.swift */,
+				9C28E69627E5DD3000DE626A /* VerticalGridView.swift */,
 				9C28E68627E5DD1200DE626A /* Assets.xcassets */,
 				9C28E68827E5DD1200DE626A /* Preview Content */,
 			);
@@ -137,8 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C28E68527E5DD0F00DE626A /* ContentView.swift in Sources */,
+				9C28E69727E5DD3000DE626A /* CurvesView.swift in Sources */,
+				9C28E69C27E5DD3000DE626A /* GradientRectangles.swift in Sources */,
+				9C28E69A27E5DD3000DE626A /* PathView.swift in Sources */,
+				9C28E69827E5DD3000DE626A /* Award.swift in Sources */,
+				9C28E69D27E5DD3000DE626A /* VerticalGridView.swift in Sources */,
+				9C28E69927E5DD3000DE626A /* CustonGridView.swift in Sources */,
 				9C28E68327E5DD0F00DE626A /* HomeWorkLesson3_7App.swift in Sources */,
+				9C28E69B27E5DD3000DE626A /* AwardsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
